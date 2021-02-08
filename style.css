@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.smartwatch
+{
+    display: flex;
+}
+
+.branding
+{
+    display: flex;
+    height: 100vh;
+    width: 50%;
+    background-color:#21292f ;
+    color: white;
+    font-size: 70px;
+    font-family: 'Hammersmith One', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.design
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    width: 350px;
+    border: 1px solid black;
+    background-color: #000000;
+    border-radius: 20%;
+    color: white;
+}
+.backcover
+{
+    display: flex;
+    position: relative;
+    left: 15%;
+    margin-top: 200px;
+    height: 450px;
+    width: 350px;
+    background-color: #3b3b3b;
+    border-radius: 20%;
+    align-items: center;
+}
+
+#shortTime
+{
+    font-size: x-large;
+}
+#currentTime
+{
+    font-size: 60px;
+}
+#currentDay
+{
+    font-size: xx-large;
+    text-align: center;
+}
+.icons
+{
+    display: flex;
+    justify-content: space-between;
+}
+.chat
+{
+    display: flex;
+    position: relative;
+    font-size: 50px;
+    right: 50px;
+}
+.music
+{
+    display: flex;
+    position: relative;
+    font-size: 40px;
+    color: white;
+}
+.time
+{
+    display: flex;
+    position: relative;
+    font-size: 40px;
+    left: 50px;
+    color :white;
+}
